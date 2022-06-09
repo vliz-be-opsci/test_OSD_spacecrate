@@ -10,7 +10,7 @@
             "@id": "ro-crate-metadata.json",
             "@type": "CreativeWork",
             "hasCrateRepo":"https://github.com/vliz-be-opsci/test_OSD_spacecrate",
-            "hasSeedCrate":"https://github.com/vliz-be-opsci/test_OSD_profilecrate"
+            "hasSeedCrate":"https://github.com/vliz-be-opsci/test_OSD_profilecrate",
             "about": {
                 "@id": "./"
             },
