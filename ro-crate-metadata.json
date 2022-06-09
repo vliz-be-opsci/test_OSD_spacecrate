@@ -1,0 +1,29 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles"
+            }
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2022-02-08T18:04:04.531904",
+            "hasPart": [
+                {
+                    "@id": "all_constraints.ttl"
+                }
+            ]
+        },
+        {
+            "@id": "all_constraints.ttl",
+            "@type": "File"
+        }
+    ]
+}
