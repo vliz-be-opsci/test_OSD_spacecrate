@@ -3,7 +3,7 @@
         "https://w3id.org/ro/crate/1.1/context",
         {"hasShaclFile":"https://example.org/NS/dmbonassistent/hasShaclFile"},
         {"hasSeedCrate":"https://example.org/NS/dmbonassistent/hasSeedCrate"},
-        {"hasCrateRepo":"https://example.org/NS/dmbonassistent/hasCrateRepo"},
+        {"hasCrateRepo":"https://example.org/NS/dmbonassistent/hasCrateRepo"}
     ],
     "@graph": [
         {
