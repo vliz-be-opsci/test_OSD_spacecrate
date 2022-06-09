@@ -1,9 +1,16 @@
 {
-    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@context": [
+        "https://w3id.org/ro/crate/1.1/context",
+        {"hasShaclFile":"https://example.org/NS/dmbonassistent/hasShaclFile"},
+        {"hasSeedCrate":"https://example.org/NS/dmbonassistent/hasSeedCrate"},
+        {"hasCrateRepo":"https://example.org/NS/dmbonassistent/hasCrateRepo"}
+    ],
     "@graph": [
         {
             "@id": "ro-crate-metadata.json",
             "@type": "CreativeWork",
+            "hasCrateRepo":"https://github.com/vliz-be-opsci/test_OSD_spacecrate",
+            "hasSeedCrate":"https://github.com/vliz-be-opsci/test_OSD_profilecrate"
             "about": {
                 "@id": "./"
             },
@@ -14,16 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-02-08T18:04:04.531904",
-            "hasPart": [
-                {
-                    "@id": "all_constraints.ttl"
-                }
-            ]
-        },
-        {
-            "@id": "all_constraints.ttl",
-            "@type": "File"
+            "datePublished": "2022-02-08T18:04:04.531904"
         }
     ]
 }
